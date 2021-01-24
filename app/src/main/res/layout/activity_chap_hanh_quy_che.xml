@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ChapHanhQuyChe"
+    android:orientation="vertical"
+    android:weightSum="4">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="3"
+        android:weightSum="2">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/primary"
+            android:text="Chấp hành quy chế"
+            android:layout_gravity="center"
+            android:textColor="@color/white"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:gravity="bottom"
+            android:textAlignment="center"
+            tools:ignore="RtlCompat" />
+        <View
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/ic_wave"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:weightSum="7"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+        <LinearLayout
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+            <EditText
+                android:layout_gravity="center"
+                android:inputType="number"
+                android:id="@+id/chidao"
+                android:layout_width="300dp"
+                android:layout_height="40dp"
+                android:background="@drawable/corner_borer"
+                android:drawableStart="@drawable/ic_code"
+                android:gravity="center"
+                android:hint="Ý thức chấp hành chỉ đạo(max 3)" />
+        </LinearLayout>
+        <LinearLayout
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+            <EditText
+
+                android:layout_gravity="center"
+                android:inputType="number"
+                android:id="@+id/quyche"
+                android:layout_width="300dp"
+                android:layout_height="40dp"
+                android:background="@drawable/corner_borer"
+                android:drawableStart="@drawable/ic_code"
+                android:gravity="center"
+                android:hint="Ý thức chấp hành quy chế(max 4)" />
+        </LinearLayout>
+        <LinearLayout
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+            <EditText
+
+                android:layout_gravity="center"
+                android:inputType="number"
+                android:id="@+id/nghiavu"
+                android:layout_width="300dp"
+                android:layout_height="40dp"
+                android:background="@drawable/corner_borer"
+                android:drawableStart="@drawable/ic_code"
+                android:gravity="center"
+                android:hint="Thực hiện tốt nghĩa vụ SV(max 3)" />
+        </LinearLayout>
+        <LinearLayout
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+            <EditText
+
+                android:layout_gravity="center"
+                android:inputType="number"
+                android:id="@+id/noitru"
+                android:layout_width="300dp"
+                android:layout_height="40dp"
+                android:background="@drawable/corner_borer"
+                android:drawableStart="@drawable/ic_code"
+                android:gravity="center"
+                android:hint="Quy chế nội trú, bán trú(max 4)" />
+        </LinearLayout>
+        <LinearLayout
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+            <EditText
+                android:layout_gravity="center"
+                android:inputType="number"
+                android:id="@+id/vesinh"
+                android:layout_width="300dp"
+                android:layout_height="40dp"
+                android:background="@drawable/corner_borer"
+                android:drawableStart="@drawable/ic_code"
+                android:gravity="center"
+                android:hint="Vệ sinh môi trường(max 4)" />
+        </LinearLayout>
+        <LinearLayout
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+            <EditText
+                android:layout_gravity="center"
+                android:inputType="number"
+                android:id="@+id/ythuc"
+                android:layout_width="300dp"
+                android:layout_height="40dp"
+                android:background="@drawable/corner_borer"
+                android:drawableStart="@drawable/ic_code"
+                android:gravity="center"
+                android:hint="Ý thức tự học(max 4)" />
+        </LinearLayout>
+        <LinearLayout
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <Button
+                android:id="@+id/button_goto"
+                android:layout_width="220dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:background="@drawable/corner_borer"
+                android:backgroundTint="@color/primary"
+                android:drawableStart="@drawable/ic_arrow_forward"
+                android:gravity="center"
+                android:text="Trang tiếp theo"
+                android:textColor="#FFFFFF" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

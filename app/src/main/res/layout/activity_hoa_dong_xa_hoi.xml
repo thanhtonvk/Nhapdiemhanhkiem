@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HoaDongXaHoi">
+
+    <View
+        android:id="@+id/bottom"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:background="@color/primary"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/ic_wave"
+        app:layout_constraintTop_toTopOf="@+id/bottom"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp" />
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginTop="70dp"
+        android:text="Ý thức tham gia xã hội"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+    <EditText
+        android:id="@+id/sinhhoat"
+        android:layout_width="220dp"
+        android:layout_height="40dp"
+        android:background="@drawable/corner_borer"
+        android:drawableStart="@drawable/ic_code"
+        android:gravity="center"
+        android:hint="Tham gia hoạt động (max 10)"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginTop="300dp"
+        />
+    <EditText
+        android:id="@+id/tinhnguyen"
+        android:layout_width="220dp"
+        android:layout_height="40dp"
+        android:background="@drawable/corner_borer"
+        android:drawableStart="@drawable/ic_code"
+        android:gravity="center"
+        android:hint="Công ích xã hội(max 5)"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginTop="380dp"
+        />
+    <EditText
+        android:id="@+id/phongchong"
+        android:layout_width="220dp"
+        android:layout_height="40dp"
+        android:background="@drawable/corner_borer"
+        android:drawableStart="@drawable/ic_code"
+        android:gravity="center"
+        android:hint="Phòng chống ma túy(max 5)"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginTop="460dp"
+        />
+    <Button
+        android:id="@+id/button_goto"
+        android:gravity="center"
+        android:drawableStart="@drawable/ic_arrow_forward"
+        android:layout_width="220dp"
+        android:layout_height="40dp"
+        android:background="@drawable/corner_borer"
+        android:backgroundTint="@color/primary"
+        android:text="Trang tiếp theo"
+        android:textColor="#FFFFFF"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginTop="540dp"
+        />
+</RelativeLayout>
